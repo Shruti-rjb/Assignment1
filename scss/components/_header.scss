@@ -1,0 +1,36 @@
+.header{
+
+    display: flex;
+    align-items: center;
+ 
+      ul{
+      display: flex;
+      list-style-type: none;
+      justify-content: center;
+      }
+      
+      li{
+        margin-left: 2rem;
+        padding: 10px;
+       
+      }
+
+      .btn-secondary{
+        background-color: $white;
+        display: inline-block;
+        font-size: 14px;
+        text-decoration: none;
+        }
+
+      a{
+        font-weight: 300;
+        @include rfs(13.33px)
+      }
+    }
+
+    // .container{
+    //   margin: 0;
+    //   overflow: auto;
+    // }
+
+  

@@ -1,0 +1,43 @@
+.hero{
+  margin: 2rem;
+  justify-content: center;
+
+  &-background{
+    background-image: url('assets/images/hero-background.png');
+    
+  }
+  
+    &-description{
+     padding: 3rem;
+     margin: 5rem;
+     text-align: left;
+     color: $white;
+    }
+
+  
+  
+  p{
+    font-size: 1rem;
+    margin-top: 4rem 0;
+    text-align: left;
+  }
+
+  h2{
+    
+    font-size:40px;
+    font-weight:400;
+    padding-bottom: 44px;
+    text-align: left;
+   
+  }
+
+  .btn-secondary{
+    background-color: transparent;
+    color:$white;
+    padding:5px 22px;
+    font-weight:200;
+  }
+
+ 
+}
+

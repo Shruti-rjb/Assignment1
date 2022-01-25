@@ -1,0 +1,21 @@
+.navbar{
+  background-color: $dark;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  
+
+    ul{
+    display: flex;
+    list-style-type: none;
+    
+   
+    li a{
+      
+      margin-right: 1.5rem;
+    
+      }
+    
+  }
+     
+}
